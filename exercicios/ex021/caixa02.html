@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+
+        header{
+            background-color: white;
+            text-align: center;
+        }
+
+        nav{
+            background-color: white;
+            background-color: gray;
+            width: 920px;
+            margin: auto;
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: green;
+            font-weight: bolder;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        #assuntos{
+            background-color: white;
+        }
+
+        #noticias > article{
+            border-radius: 5px;
+        }
+
+        article{
+            background-color: white;
+        }
+
+        article > aside{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        footer{
+            font-style: italic;
+            background-color: darkgreen;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            Esporte Comida Tecnologia
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, nam assumenda, explicabo autem nisi distinctio possimus incidunt magnam a minima maxime, rem libero tempore voluptatibus. Commodi voluptas nam eligendi facilis.</p>
+                <aside>
+                    Artigo escrito por Wendel Nícolas
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido por Wendel
+    </footer>
+</body>
+</html>

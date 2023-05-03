@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias HTML5</title>
+</head>
+<body>
+    <h1>Imagens Adaptáveis</h1>
+    <p>Nesse site de teste, estou usando a tag &lt;picture&gt; para fazer com que minhas imagens, sejam adaptáveis para diferentes tipos de tela.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto-g">
+    </picture>
+    <h1>Aúdios</h1>
+    <p>Ouça está música de qualidade.</p>
+    <audio src="audio/heybrother.mp4" preload="metadata" controls></audio>
+</body>
+</html>
