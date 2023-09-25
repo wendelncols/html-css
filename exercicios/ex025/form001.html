@@ -12,8 +12,8 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form action="cadastro.php" autocomplete="off">
-        <p><label for="inome">Nome:</label> 
+    <form action="cadastro.php" method="post" autocomplete="off"> <!--O Method é utilizado com GET ou POST--> <!--GET só suporta até 3.OOOKbps, e só deve ser utilizado para dados não sensíveis (nome, sobrenome, algumas pesquisa em específico)-->
+        <p><label for="inome">Nome:</label>
             <input type="text" name="nome" id="inome"></p> <!--Input do Tipo Text = Digitar Textos-->
         <p><label for="isobrenome">Sobrenome:</label> 
             <input type="text" name="sobrenome" id="isobrenome"></p>
