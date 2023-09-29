@@ -26,7 +26,11 @@
                 </optgroup>
             </select>
         </p>
-
+<!--
+    Select = Para fazer uma lista de seleções.
+    Option = Para adicionar uma opção na lista de seleções
+    Optgroup = Para agrupar opções em um nicho (label será para dar nome a esse optgroup)
+-->
         <p>
             <label for="iprof">Profissão: </label>
             <input type="text" name="prof" id="iprof" list="lstprof">
@@ -37,8 +41,11 @@
                 <option value="PROF">Professor</option>
             </datalist>
         </p>
-
-        <p><label for="imsg">Mensagem: </label><br>
+        <!--
+            Datalist = Serve para adcionar opções a caixas de texto
+        -->
+        <p>
+        <label for="imsg">Mensagem: </label><br>
         <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
         </p>
 
